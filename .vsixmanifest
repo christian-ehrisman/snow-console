@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+  xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+  xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="snow-console" Version="0.1.0" Publisher="cje" />
+    <DisplayName>S.N.I.C.H. Canary</DisplayName>
+    <Description xml:space="preserve">ServiceNow Integrated Code Helper - Canary. Get the latest as I build stuff ready to be tested! Provide feedback to integratenate@gmail.com</Description>
+    <Tags>SNICH,snich,ServiceNow,Service-Now,ServiceNow Code Sync,Service-Now Code Helper,Service-Now Code Syncer,Service-Now Code Sync,SNOW,SNOW Code Syncer,SNOW Code Editor</Tags>
+    <Categories>Other,SCM Providers</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges>
+      <Badge Link="https://www.youtube.com/playlist?list=PLp0BtdkD38PWd9PTib4OgRaTQ3SIQDE17" ImgUri="https://badgen.net/badge/YouTube/Instructional Videos/blue?icon=googleplay" Description="Watch instructional videos on Youtube!" />
+      <Badge Link="https://www.servicenow.com" ImgUri="https://badgen.net/badge/ServiceNow/Kingston%20%7C%20London%20%7C%20Madrid/red" Description="Supported Service Now Versions" />
+    </Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.45.1" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+
+      <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/RaynorUE/snich" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/RaynorUE/snich" />
+
+      <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/RaynorUE/snich" />
+
+
+
+
+
+
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.EnableMarketplaceQnA" Value="true" />
+
+
+    </Properties>
+
+    <Icon>extension/images/icon-canary.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon-canary.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
